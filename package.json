@@ -1,0 +1,15 @@
+{
+  "name": "haki-yangu-backend",
+  "version": "1.0.0",
+  "description": "USSD + SMS legal rights & referral service for the AT Women in Tech Hackathon (Kenya)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "africastalking": "^0.6.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
